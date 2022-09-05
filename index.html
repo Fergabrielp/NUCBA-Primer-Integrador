@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="./img/logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Aerolinda</title>
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <div class="logo-container">
+          <img src="/img/logo.png" alt="Brand Image" />
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkBtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="nav-list">
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#destination">DESTINOS</a></li>
+          <li><a href="#services">SERVICIOS</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+          <li><a href="./login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="hero-img"></div>
+      </section>
+
+      <section class="search-section">
+        <form class="search-form">
+          <div class="input-list">
+            <input type="text" placeholder="Origen" />
+          </div>
+          <div class="input-list">
+            <input type="drop-down" placeholder="Destino" />
+          </div>
+          <div class="input-list">
+            <label>Desde:</label>
+            <input type="date" />
+          </div>
+          <div class="input-list">
+            <label>Hasta:</label>
+            <input type="date" />
+          </div>
+          <button class="search-btn">Buscar</button>
+        </form>
+      </section>
+
+      <div class="section-title" id="destination">
+        <h2>¡Descubrí Argentina!</h2>
+      </div>
+
+      <section class="destination-section">
+        <div class="flex-container">
+          <div class="item-flex">
+            <div class="item-flex-titulo">Buenos Aires</div>
+          </div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Catamarca</div>
+          </div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Córdoba</div>
+          </div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Tierra del Fuego</div>
+          </div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Mendoza</div>
+          </div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Misiones</div>
+          </div>
+          <div class="item-flex"><div class="item-flex-titulo">Salta</div></div>
+          <div class="item-flex">
+            <div class="item-flex-titulo">Santa Cruz</div>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="item"><div class="item-titulo">Buenos Aires</div></div>
+          <div class="item"><div class="item-titulo">Catamarca</div></div>
+          <div class="item"><div class="item-titulo">Córdoba</div></div>
+          <div class="item">
+            <div class="item-titulo">Tierra del Fuego</div>
+          </div>
+          <div class="item"><div class="item-titulo">Mendoza</div></div>
+          <div class="item"><div class="item-titulo">Misiones</div></div>
+          <div class="item"><div class="item-titulo">Salta</div></div>
+          <div class="item"><div class="item-titulo">Santa Cruz</div></div>
+        </div>
+      </section>
+
+      <div class="section-title" id="services">
+        <h2>¿Qué nos diferencia?</h2>
+      </div>
+      <section class="services-section">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-suitcase-rolling"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                No pagues de más para llevarte lo que necesites. Accede a
+                descuentos increibles para tu equipaje en cabina y una
+                bonificaión del 100% de tu valija de mano.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-hotel"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                Descuentos increibles en hoteles asociados con Aerolinda. Sumá
+                puntos y disfruta de calidad y relax a precios asombrosos.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-car"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                No te preocupes por la distancia, tenemos traslados a nuestros
+                hoteles asociados bonificados en un 100%.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-wheelchair-move"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                Toda nuestra flota e instalaciones, se encuentran adapatadas
+                para el confort de nuestros pasajeros.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                Disfrutá de snacks en todos nuestros viajes y un menú de 5
+                estrellas con opciones sin tac, vegetarianas y veganas para que
+                disfrutes el viaje.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fa-solid fa-cat"></i>
+            </div>
+            <div class="card-p">
+              <p>
+                No dejes a tus mascotas en casa, llevalas con vos. Disponemos de
+                cabinas especiales para ellos sin costo adicional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section-title">
+        <h2>Contacto</h2>
+      </div>
+    </main>
+
+    <footer>
+      <section class="footer-container">
+        <!-- <ul>
+          <li>asdasd</li>
+          <li>asdasda</li>
+          <li>asdasda</li>
+        </ul> -->
+      </section>
+      <section class="contact-section" id="contact">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-solid fa-address-card"></i>
+          </div>
+
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Dirección Falsa</li>
+            <li><i class="fa-solid fa-envelope"></i>Correo@correo.com</li>
+            <li><i class="fa-solid fa-phone"></i>123-123456</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
